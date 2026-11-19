@@ -28,3 +28,8 @@ Install Python 3.9+, then run `python -m pip install -r requirements.txt` and `j
 No separate files are required. Examples use small datasets bundled with scikit-learn or reproducibly generated synthetic data.
 
 Educational examples only; results are not production-ready models.
+
+
+## Program notebook style
+
+Program notebooks follow a code-first, step-by-step format like the supplied Linear Regression example: import libraries, load data, inspect rows and columns, check and clean missing/duplicate data, analyze it, select features and target, split data, scale where appropriate, fit the model, evaluate it, and try a prediction. Theory remains in each separate `*_theory.ipynb` notebook. The examples load datasets bundled with scikit-learn, so no CSV download is needed.
